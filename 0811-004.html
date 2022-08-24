@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상요소</title>
+    <style>
+        body {
+            font-size: 14px;
+        }
+        table {
+            width: 600px;
+            height: 250px;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #ccc;
+        }
+        tr:nth-child(even) {
+            background: #999;
+            height: 25px;
+        }
+        th {
+            height: 25px;
+            background: #ccc;
+        }
+        .cls001 {
+            background: #ccc;
+            width: 50px;
+        }
+        .cls002 {
+            width: 400px;
+        }
+        .cls003 {
+            width: 50px;
+        }
+        .cls004 {
+            width: 50px;
+        }
+        .cls005 {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="cls001">번호</th>
+            <th class="cls002">내용</th>
+            <th class="cls003">조회수</th>
+            <th class="cls004">글쓴이</th>
+            <th class="cls005">좋아요</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>엄준식</td>
+            <td>100</td>
+            <td>순규</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>무야호</td>
+            <td>1000</td>
+            <td>영빈</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>햄버거</td>
+            <td>10000</td>
+            <td>준희</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>양아치</td>
+            <td>1</td>
+            <td>노재운</td>
+            <td>-100</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>대머리</td>
+            <td>100000</td>
+            <td>하늘</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>곰팡이</td>
+            <td>1000000</td>
+            <td>태경</td>
+            <td>500000</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>게임</td>
+            <td>20000000</td>
+            <td>진희</td>
+            <td>20000</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>헬스</td>
+            <td>51000</td>
+            <td>준식</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>리뷰</td>
+            <td>5465865</td>
+            <td>은진</td>
+            <td>30000</td>
+        </tr>
+    </table>
+</body>
+</html>
